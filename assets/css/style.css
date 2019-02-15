@@ -1,3 +1,16 @@
 body {
     background-image: url("../images/Background.png");
 }
+
+header {
+    background-color: white;
+    height: 15vh;
+}
+
+header h1 {
+    background-color: #4aaaa5;
+}
+
+header div {
+    margin: 0 25%;
+}
