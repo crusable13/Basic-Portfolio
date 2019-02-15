@@ -4,13 +4,57 @@ body {
 
 header {
     background-color: white;
-    height: 15vh;
+    height: 65px;
+    border-bottom: 2px solid black;
+    position: relative;
 }
 
 header h1 {
     background-color: #4aaaa5;
+    float: left;
+    line-height: 65px; 
+    color: white;
+    font-weight: bolder;
+    padding: 0 2vw;
+    font-size: 30px;
 }
 
 header div {
     margin: 0 25%;
+}
+
+.main-box {
+    margin: 0 25%;
+    background: white;
+    border: 1px solid #dddddd;
+    margin-top: 3vh;
+}
+
+ul {
+    float: right;
+    font-size: 20px;
+}
+
+#profile {
+    width:15vw;
+}
+
+#firstP {
+    
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    background-color: #666666;
+    bottom: 0;
+    border-top: 8   px solid teal;
+}
+
+footer h6 {
+    text-align: center;
+    color: white;
+    bottom: 2;
+    padding-top: 30px;
 }
