@@ -26,7 +26,7 @@ header h1 {
 }
 
 header div {
-    margin: 0 20%;
+    margin: 0 25%;
 }
 .main-box h1 {
     color: #4aaaa5;
@@ -37,7 +37,7 @@ header div {
 }
 
 .main-box {
-    margin: 0 20%;
+    margin: 0 25%;
     background: white;
     border: 1px solid #dddddd;
     margin-top: 3vh;
@@ -52,7 +52,7 @@ ul {
     right: 0;
     top: 0;
     font-size: 20px;
-    margin: 0 20%;
+    margin: 0 25%;
 }
 
 #contact {
@@ -83,7 +83,7 @@ footer {
     height: 50px;
     background-color: #666666;
     bottom: 0%;
-    border-top: 8px solid teal;
+    border-top: 8px solid #4aaaa5;
     
 }
 
@@ -112,3 +112,35 @@ p {
     float: left;
     padding-right: 1%;
 }
+
+/* code for contact */
+
+form div  {
+    padding: 1% 0;
+}
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+
+ textarea {
+      height: 30vh;
+  }
+  
+  input[type=submit] {
+      color: white;
+      padding: 12px 20px;
+      background-color: #4aaaa5;
+      border: none;
+      cursor: pointer;
+  }
+
+  label {
+      color: gray;
+  }
