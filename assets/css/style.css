@@ -62,6 +62,7 @@ ul {
 ul li {
     float: left;
     padding: 0 10px;
+    color: red;
 }
 
 #border{
@@ -99,7 +100,7 @@ img {
 }
 
 a {
-    color: #cccccc;
+    color: red;
     text-decoration: none;
 }
 
@@ -143,4 +144,13 @@ input[type=text], select, textarea {
 
   label {
       color: gray;
+  }
+
+  /* Media Query attempt */
+
+@media only screen and (max-width: 600px) {
+    ul {
+        margin-top: 50px;
+        color: red;
+    }
   }
